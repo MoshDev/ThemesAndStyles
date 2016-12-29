@@ -26,6 +26,8 @@
 
     <attr name="manufacture_logo" format="reference"/>
 
+    <attr name="rotten" format="boolean"/>
+
   </declare-styleable>
 
 </resources>

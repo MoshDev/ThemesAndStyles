@@ -26,6 +26,7 @@
     app:overlay_text="@string/app_name"
     app:portion_color="light"
     app:rats_fraction="50%"
+    app:rotten="false"
     app:sweep_angle="180"/>
 
   <View
