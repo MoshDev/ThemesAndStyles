@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/activity_style_vs_theme1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp"
+  tools:context="com.github.moshdev.themessample.style_vs_theme.StyleVsTheme1Activity">
+
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="#300F"
+    android:text="We apply the style on individual view"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+  <TextView
+    style="@style/style_vs_theme_body_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/lorem"/>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/lorem"/>
+
+</LinearLayout>
