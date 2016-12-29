@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <attr name="cheese_portion" format="string|reference"/>
+  <declare-styleable name="CheeseView">
+    <attr name="sweep_angle" format="float"/>
+    <attr name="cheese_type" format="enum">
+      <enum name="normal" value="1"/>
+      <enum name="dark" value="2"/>
+    </attr>
+
+    <attr name="portion_color" format="color">
+      <enum name="light" value="-1"/>
+      <enum name="dark" value="-2"/>
+    </attr>
+
+    <attr name="overlay_text" format="string"/>
+
+    <attr name="rats_fraction" format="fraction"/>
+
+    <attr name="ingredients">
+      <flag name="milk" value="1"/>
+      <flag name="pepper" value="2"/>
+      <flag name="garlic" value="4"/>
+      <flag name="thyme" value="8"/>
+    </attr>
+
+    <attr name="manufacture_logo" format="reference"/>
+
+  </declare-styleable>
 
 </resources>
