@@ -61,6 +61,7 @@ public class CheeseView extends View {
     super(context, attrs);
 
     TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CheeseView);
+
     //Float
     sweepAngle = typedArray.getFloat(R.styleable.CheeseView_sweep_angle, 90);
 
