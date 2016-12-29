@@ -25,6 +25,11 @@
       android:name=".style_vs_theme.StyleVsTheme2Activity"
       android:theme="@style/AppTheme.StyleVsTheme">
     </activity>
+    <activity
+      android:name=".attributes.AttributesActivity"
+      android:label="@string/title_activity_attributes"
+      android:theme="@style/AppTheme.NoActionBar">
+    </activity>
   </application>
 
 </manifest>
