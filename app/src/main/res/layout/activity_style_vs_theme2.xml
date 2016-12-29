@@ -15,7 +15,7 @@
     android:layout_height="wrap_content"
     android:layout_marginBottom="16dp"
     android:background="#300F"
-    android:text="We apply the style on individual view"
+    android:text="We apply the style on entire activity"
     android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
   <TextView
