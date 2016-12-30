@@ -38,6 +38,10 @@
       android:name=".appcompat.ToolbarActivity"
       android:theme="@style/ToolbarActivity">
     </activity>
+    <activity
+      android:name=".theme.InLayoutThemeActivity"
+      android:theme="@style/ToolbarActivity">
+    </activity>
   </application>
 
 </manifest>

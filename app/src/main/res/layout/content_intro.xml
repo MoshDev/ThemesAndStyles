@@ -43,4 +43,10 @@
     android:onClick="toolbarActivity"
     android:text="Toolbar Activity"/>
 
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="inLayoutThemeActivity"
+    android:text="In-LayoutTheme Activity"/>
+
 </LinearLayout>

@@ -2,8 +2,8 @@
 <resources>
 
   <style name="ToolbarActivity" parent="AppTheme.NoActionBar">
-    <item name="android:toolbarStyle">@style/ToolbarActivity.ToolbarStyle</item>
-    <item name="android:buttonStyle">@style/ToolbarActivity.ButtonStyle</item>
+    <item name="toolbarStyle">@style/ToolbarActivity.ToolbarStyle</item>
+    <item name="buttonStyle">@style/ToolbarActivity.ButtonStyle</item>
     <item name="android:textViewStyle">@style/ToolbarActivity.TextViewStyle</item>
   </style>
 

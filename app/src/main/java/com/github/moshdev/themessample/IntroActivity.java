@@ -11,6 +11,7 @@ import com.github.moshdev.themessample.appcompat.ToolbarActivity;
 import com.github.moshdev.themessample.attributes.AttributesActivity;
 import com.github.moshdev.themessample.style_vs_theme.StyleVsTheme1Activity;
 import com.github.moshdev.themessample.style_vs_theme.StyleVsTheme2Activity;
+import com.github.moshdev.themessample.theme.InLayoutThemeActivity;
 
 public class IntroActivity extends AppCompatActivity {
 
@@ -41,5 +42,9 @@ public class IntroActivity extends AppCompatActivity {
 
   public void toolbarActivity(View view) {
     startActivity(new Intent(this, ToolbarActivity.class));
+  }
+
+  public void inLayoutThemeActivity(View view) {
+    startActivity(new Intent(this, InLayoutThemeActivity.class));
   }
 }
