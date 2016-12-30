@@ -23,7 +23,7 @@
     app:cheese_type="normal"
     app:ingredients="milk|thyme|garlic"
     app:manufacture_logo="@drawable/ic_action_cheese_company"
-    app:overlay_text="@string/app_name"
+    app:overlay_text="?attr/overlay_text"
     app:portion_color="light"
     app:rats_fraction="50%"
     app:rotten="false"
@@ -34,7 +34,7 @@
     android:layout_height="25dp"
     android:layout_marginBottom="16dp"
     android:layout_marginTop="16dp"
-    android:background="#3333"/>
+    android:background="?attr/my_favorite_color"/>
 
   <TextView
     android:layout_width="match_parent"

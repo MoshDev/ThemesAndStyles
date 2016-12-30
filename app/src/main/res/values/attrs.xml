@@ -30,4 +30,6 @@
 
   </declare-styleable>
 
+  <attr name="my_favorite_color" format="color"/>
+
 </resources>

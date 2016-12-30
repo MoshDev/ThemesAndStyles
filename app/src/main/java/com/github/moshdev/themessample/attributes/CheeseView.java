@@ -59,6 +59,8 @@ public class CheeseView extends View {
 
   public CheeseView(Context context, @Nullable AttributeSet attrs) {
     super(context, attrs);
+    context.obtainStyledAttributes(attrs, R.styleable.CheeseView, R.attr.actionBarSplitStyle,
+        R.style.AppTheme_StyleVsTheme);
 
     TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CheeseView);
 
