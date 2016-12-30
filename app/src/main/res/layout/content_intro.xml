@@ -29,7 +29,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:onClick="attributesActivity"
-    android:text="Attributes Activity2"/>
+    android:text="Attributes Activity"/>
 
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="materialActivity"
+    android:text="Material Activity"/>
 
 </LinearLayout>

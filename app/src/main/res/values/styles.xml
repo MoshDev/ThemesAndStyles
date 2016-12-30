@@ -47,4 +47,49 @@
     <item name="android:textColor">@color/red</item>
   </style>
 
+
+  <style name="MaterialTheme" parent="Theme.AppCompat.Light">
+
+    <item name="colorPrimary">#8B1E3F</item>
+    <item name="colorPrimaryDark">#5c142a</item>
+    <item name="colorAccent">#3C153B</item>
+
+    <!--CheckBox, RadioButton, (SeekBar, ProgressBar with alpha)  & Inactive EditText underline-->
+    <item name="android:colorControlNormal">#89BD9E</item>
+
+    <!--Activating/Enabling Ripple Effect-->
+    <item name="android:colorControlHighlight">#F0C987</item>
+
+    <!--Used with Active -> SeekBars, ProgressBars, Switches, Checkboxes and RadioButtons & Active EditText underline-->
+    <item name="android:colorControlActivated">#006665</item>
+
+    <!--Used with Buttons and Toolbar title-->
+    <item name="android:colorButtonNormal">#EB7BC0</item>
+
+    <!--Used with Buttons & EditText text-->
+    <item name="android:textColorPrimary">#04dc00</item>
+    <item name="android:textColorPrimaryInverse">#dc0004</item>
+
+    <!--TextAppearance Medium-->
+    <item name="android:textColorSecondary">#00f</item>
+
+    <!--CompoundButton text-->
+    <item name="android:textColorPrimaryDisableOnly">#F00</item>
+
+    <!--Normal and TextAppearance Medium TextView-->
+    <item name="android:textColorTertiary">#FF934F</item>
+
+    <!--EditText Hint text color-->
+    <item name="android:textColorHint">#6f00ff</item>
+
+
+    <item name="android:windowBackground">@color/windowBackground</item>
+
+    <!--Defaults-->
+    <!--<item name="colorControlNormal">?android:attr/textColorSecondary</item>-->
+    <!--<item name="colorControlActivated">?attr/colorAccent</item>-->
+    <!--<item name="colorControlHighlight">@color/ripple_material_light</item>-->
+    <!--<item name="colorButtonNormal">@color/button_material_light</item>-->
+  </style>
+
 </resources>

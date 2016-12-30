@@ -30,6 +30,10 @@
       android:label="@string/title_activity_attributes"
       android:theme="@style/AppTheme.NoActionBar">
     </activity>
+    <activity
+      android:name=".appcompat.MaterialActivity"
+      android:theme="@style/MaterialTheme">
+    </activity>
   </application>
 
 </manifest>

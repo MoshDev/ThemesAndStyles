@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/activity_material"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.github.moshdev.themessample.appcompat.MaterialActivity">
+
+
+  <TextView
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Normal TextView"/>
+
+  <TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView.TextAppearance.AppCompat.Large"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+  <TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView.TextAppearance.AppCompat.Medium"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+  <TextView
+    android:id="@+id/textView4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TextView.TextAppearance.AppCompat.Small"
+    android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+  <Button
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Button"/>
+
+  <Button
+    android:id="@+id/button2"
+    style="?android:borderlessButtonStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Borderless Button"/>
+
+  <ToggleButton
+    android:id="@+id/toggleButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ToggleButton"/>
+
+  <CheckBox
+    android:id="@+id/checkBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CheckBox"/>
+
+  <RadioButton
+    android:id="@+id/radioButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="RadioButton"/>
+
+  <CheckedTextView
+    android:id="@+id/checkedTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CheckedTextView"/>
+
+  <ProgressBar
+    android:id="@+id/progressBar"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+  <ProgressBar
+    android:id="@+id/progressBar2"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:indeterminate="true"/>
+
+  <SeekBar
+    android:id="@+id/seekBar"
+    style="@style/Widget.AppCompat.SeekBar.Discrete"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:max="10"
+    android:progress="3"/>
+
+  <SeekBar
+    android:id="@+id/seekBar2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+  <Switch
+    android:id="@+id/switch1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Switch"/>
+
+  <EditText
+    android:hint="EditText Hint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:text="EditText"/>
+
+  <EditText
+    android:hint="EditText Hint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"/>
+</LinearLayout>
