@@ -3,4 +3,6 @@
   <string name="action_settings">Settings</string>
   <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
   <string name="title_activity_attributes">AttributesActivity</string>
+  <string name="title_activity_context_theme_wrapper_light">ContextThemeWrapperLightActivity
+  </string>
 </resources>

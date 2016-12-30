@@ -23,7 +23,7 @@
     app:cheese_type="normal"
     app:ingredients="milk|thyme|garlic"
     app:manufacture_logo="@drawable/ic_action_cheese_company"
-    app:overlay_text="?attr/overlay_text"
+    app:overlay_text="This is a cheese"
     app:portion_color="light"
     app:rats_fraction="50%"
     app:rotten="false"

@@ -23,4 +23,13 @@
     <item name="android:textColor">#00f</item>
   </style>
 
+
+  <style name="InLayoutTheme" parent="Theme.AppCompat.Light">
+    <item name="android:textViewStyle">@style/InLayoutTheme.TextViewStyle</item>
+  </style>
+
+  <style name="InLayoutTheme.TextViewStyle" parent="@android:style/Widget.TextView">
+    <item name="android:textColor">#F00</item>
+  </style>
+
 </resources>

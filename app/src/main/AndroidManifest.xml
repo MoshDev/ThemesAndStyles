@@ -42,6 +42,20 @@
       android:name=".theme.InLayoutThemeActivity"
       android:theme="@style/ToolbarActivity">
     </activity>
+    <activity
+      android:name=".themewrapper.ContextThemeWrapperActivity"
+      android:theme="@style/ToolbarActivity">
+    </activity>
+    <activity
+      android:name=".themewrapper.ContextThemeWrapperLightActivity"
+      android:label="@string/title_activity_context_theme_wrapper_light"
+      android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+    <activity
+      android:name=".themewrapper.ContextThemeWrapperDarkActivity"
+      android:label="@string/title_activity_context_theme_wrapper_light"
+      android:theme="@style/AppTheme.NoActionBar">
+    </activity>
   </application>
 
 </manifest>

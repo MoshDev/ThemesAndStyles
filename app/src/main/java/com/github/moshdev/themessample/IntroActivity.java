@@ -12,6 +12,9 @@ import com.github.moshdev.themessample.attributes.AttributesActivity;
 import com.github.moshdev.themessample.style_vs_theme.StyleVsTheme1Activity;
 import com.github.moshdev.themessample.style_vs_theme.StyleVsTheme2Activity;
 import com.github.moshdev.themessample.theme.InLayoutThemeActivity;
+import com.github.moshdev.themessample.themewrapper.ContextThemeWrapperActivity;
+import com.github.moshdev.themessample.themewrapper.ContextThemeWrapperDarkActivity;
+import com.github.moshdev.themessample.themewrapper.ContextThemeWrapperLightActivity;
 
 public class IntroActivity extends AppCompatActivity {
 
@@ -46,5 +49,17 @@ public class IntroActivity extends AppCompatActivity {
 
   public void inLayoutThemeActivity(View view) {
     startActivity(new Intent(this, InLayoutThemeActivity.class));
+  }
+
+  public void contextThemeWrapperActivity(View view) {
+    startActivity(new Intent(this, ContextThemeWrapperActivity.class));
+  }
+
+  public void contextThemeWrapperLightActivity(View view) {
+    startActivity(new Intent(this, ContextThemeWrapperLightActivity.class));
+  }
+
+  public void contextThemeWrapperDarkActivity(View view) {
+    startActivity(new Intent(this, ContextThemeWrapperDarkActivity.class));
   }
 }

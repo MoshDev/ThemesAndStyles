@@ -27,4 +27,26 @@
     android:text="@string/lorem"
     android:theme="@style/Theme.AppCompat.Light.DarkActionBar"/>
 
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="@style/InLayoutTheme">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:padding="16dp"
+      android:text="@string/lorem"/>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:padding="16dp"
+      android:text="@string/lorem"/>
+
+  </LinearLayout>
+
 </LinearLayout>

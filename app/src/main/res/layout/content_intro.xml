@@ -47,6 +47,24 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:onClick="inLayoutThemeActivity"
-    android:text="In-LayoutTheme Activity"/>
+    android:text="In-Layout Theme Activity"/>
+
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="contextThemeWrapperActivity"
+    android:text="Context Theme Wrapper Activity"/>
+
+  <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="contextThemeWrapperLightActivity"-->
+    <!--android:text="Context Theme Wrapper Light Activity"/>-->
+
+  <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="contextThemeWrapperDarkActivity"-->
+    <!--android:text="Context Theme Wrapper Dark Activity"/>-->
 
 </LinearLayout>
