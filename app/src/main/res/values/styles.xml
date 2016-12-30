@@ -63,12 +63,11 @@
     <!--Used with Active -> SeekBars, ProgressBars, Switches, Checkboxes and RadioButtons & Active EditText underline-->
     <item name="android:colorControlActivated">#006665</item>
 
-    <!--Used with Buttons and Toolbar title-->
+    <!--Used with Buttons-->
     <item name="android:colorButtonNormal">#EB7BC0</item>
 
-    <!--Used with Buttons & EditText text-->
+    <!--Used with Buttons & EditText text & Toolbar title-->
     <item name="android:textColorPrimary">#04dc00</item>
-    <item name="android:textColorPrimaryInverse">#dc0004</item>
 
     <!--TextAppearance Medium-->
     <item name="android:textColorSecondary">#00f</item>
@@ -76,7 +75,7 @@
     <!--CompoundButton text-->
     <item name="android:textColorPrimaryDisableOnly">#F00</item>
 
-    <!--Normal and TextAppearance Medium TextView-->
+    <!--Normal and TextAppearance Small TextView-->
     <item name="android:textColorTertiary">#FF934F</item>
 
     <!--EditText Hint text color-->
