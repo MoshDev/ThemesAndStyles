@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="ToolbarActivity" parent="AppTheme.NoActionBar">
+    <item name="android:toolbarStyle">@style/ToolbarActivity.ToolbarStyle</item>
+    <item name="android:buttonStyle">@style/ToolbarActivity.ButtonStyle</item>
+    <item name="android:textViewStyle">@style/ToolbarActivity.TextViewStyle</item>
+  </style>
+
+  <style name="ToolbarActivity.ToolbarStyle" parent="Widget.AppCompat.Toolbar">
+    <item name="android:id">@+id/toolbar</item>
+    <item name="android:background">#89ed98</item>
+    <item name="android:elevation">4dp</item>
+    <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+  </style>
+
+  <style name="ToolbarActivity.ButtonStyle" parent="Widget.AppCompat.Button">
+    <item name="android:textColor">#F00</item>
+  </style>
+
+  <style name="ToolbarActivity.TextViewStyle" parent="@android:style/Widget.TextView">
+    <item name="android:textColor">#00f</item>
+  </style>
+
+</resources>

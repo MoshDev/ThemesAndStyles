@@ -37,4 +37,10 @@
     android:onClick="materialActivity"
     android:text="Material Activity"/>
 
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="toolbarActivity"
+    android:text="Toolbar Activity"/>
+
 </LinearLayout>

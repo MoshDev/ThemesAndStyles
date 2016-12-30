@@ -34,6 +34,10 @@
       android:name=".appcompat.MaterialActivity"
       android:theme="@style/MaterialTheme">
     </activity>
+    <activity
+      android:name=".appcompat.ToolbarActivity"
+      android:theme="@style/ToolbarActivity">
+    </activity>
   </application>
 
 </manifest>
