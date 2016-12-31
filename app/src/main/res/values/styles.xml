@@ -9,6 +9,9 @@
     <item name="colorAccent">@color/colorAccent</item>
     <item name="my_favorite_color">#d02b2b70</item>
 
+    <item name="company_logo">@mipmap/ic_launcher</item>
+    <item name="company_color">#4085d4</item>
+
   </style>
 
   <style name="AppTheme.NoActionBar">

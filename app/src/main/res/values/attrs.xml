@@ -32,4 +32,7 @@
 
   <attr name="my_favorite_color" format="color"/>
 
+  <attr name="company_logo" format="reference"/>
+  <attr name="company_color" format="color"/>
+
 </resources>
